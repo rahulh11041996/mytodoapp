@@ -1,0 +1,46 @@
+.card {
+  background: #fff;
+  width: 100%;
+  margin-block: 4rem;
+  display: block;
+  padding: 2.4rem;
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.075);
+  border-radius: 0.4rem;
+  display: flex;
+  gap: 2rem;
+}
+
+.text_field {
+  display: block;
+  border: 1px solid rgba(33, 33, 33, 0.314);
+  height: 3.2rem;
+  border-radius: 0.4rem;
+  width: 100%;
+  text-indent: 1rem;
+  outline: none;
+  font-family: "Karla", sans-serif;
+}
+
+.button {
+  border: none;
+  min-width: max-content;
+  padding: 0 1.6rem;
+  border-radius: 0.4rem;
+  font-weight: 600;
+  font-family: "Karla", sans-serif;
+  background: #fc466b;
+  color: #fff;
+  box-shadow: 0 3px 12px #910d2847;
+  transition: all ease-in-out 500ms;
+  cursor: pointer;
+}
+
+.button:hover {
+  box-shadow: 0 1px 5px #910d2810;
+}
+
+.button:disabled {
+  opacity: 0.65;
+  box-shadow: none;
+  cursor: not-allowed;
+}

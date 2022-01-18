@@ -1,0 +1,42 @@
+.icons_container {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  padding-left: 1rem;
+}
+
+.icon_button {
+  border: none;
+  padding: 0.6rem;
+  border-radius: 50%;
+  cursor: pointer;
+  background: transparent;
+  width: 3rem;
+  height: 3rem;
+  font-size: 1.6rem;
+  transition: background 300ms ease-in-out;
+}
+
+.icon_button > i {
+  transition: all 300ms ease-in-out;
+}
+
+.icon_button_edit {
+  color: #72bd0e;
+}
+
+.icon_button_edit:hover {
+  background: rgba(114, 190, 14, 0.063);
+}
+
+.icon_button_delete {
+  color: #e10141;
+}
+
+.icon_button_delete:hover {
+  background: rgba(225, 1, 65, 0.063);
+}
+
+.icon_button:hover > i {
+  transform: scale(0.85);
+}
