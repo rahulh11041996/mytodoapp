@@ -29,7 +29,8 @@
   height: 6rem;
 }
 .ht_4 {
-  height: 5rem;
+  min-height: 5rem;
+  padding-block: 1rem;
 }
 
 .fz_14 {
@@ -39,7 +40,7 @@
   width: max-content;
   text-indent: 0;
   position: relative;
-  opacity: 0.75;
+  opacity: 0.6;
   margin-left: 1rem;
 }
 
@@ -69,7 +70,7 @@
 
 .content_editable[contenteditable="true"] {
   border: 1px solid #b9b9b9;
-  height: 3rem;
+  min-height: 3rem;
   border-radius: 0.4rem;
   display: flex;
   align-items: center;
@@ -80,4 +81,8 @@
   display: flex;
   align-items: center;
   padding-right: 4rem;
+  overflow: hidden;
+  word-break: break-all;
+  text-indent: 0;
+  margin-left: 1rem;
 }
